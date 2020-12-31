@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+span{
+    color: rgba(152, 152, 152, 1);
+    font-size: 12px;
+}
+.demoa{
+    background: url(../image/4.industry/top_banner4_1.png) no-repeat;
+    height: 390px;
+}
+.demoa .nav{
+    margin-top: 15px;
+}
+.demoa .nav h1{
+    color: aliceblue;
+}
+.nav .nva_logo{
+    width: 200px ; 
+    /* background-color: brown; */
+    /* vertical-align: middle; */
+  
+}
+.nav .nav_list{
+    display: flex;
+    /* margin-top: 10px; */
+}
+.nav_list_borad{
+    padding-bottom: 12px;
+    border-bottom: 4px solid white; 
+}
+.nav .nav_list a{
+    font-size: 20px;
+    margin-left: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    /* background-color: red; */
+    /* margin-left: 40px; */
+}
+.nav .login{
+    /* background-color: forestgreen; */
+    margin-left: 40px;
+    border: 1px solid white;
+    margin-top: 8px;
+}   
+.nav .login a{
+    color: white;
+
+}
+.nav .nav_title{
+    text-align: center;
+    margin-top: 150px;
+/* background-color: black; */
+}
+.nav .nav_title_item{
+margin-top: 30px;
+margin-left: 40px;
+}
+.nav .nav_title_item h4{
+    color: white;
+    line-height: 40px;
+}
+.nav .nav_title_login{
+    width: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: rgb(220, 232, 245);
+    box-shadow: 0px 0px 3px white;
+}
+/* 大内容块 */
+.demob{
+    /* background-color: seagreen; */
+}
+.demob .current-location{
+    margin-top: 15px;
+    
+}
+.Large-content-block{
+    margin-top: 30px;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+
+}
+.Large-content-block .Large-content-block_list{
+    margin-left: 20px;
+    padding-top: 20px;
+    /* text-align: center; */
+}
+.Large-content-block .Large-content-block_list_ul{
+    padding-right: 50px;
+    width: 300px;
+}
+.Large-content-block_list_ul_li{
+    /* background-color: springgreen; */
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 24px;
+    line-height: 28px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+}
+.Large-content-block_list_ul img{
+    padding-right: 40px;
+}
+.Large-content-block .Large-content-block_list b{
+    /* margin-left: 20px; */
+    text-align: center;
+    
+}
+.industry_color{
+    color: rgba(70, 142, 255, 1);
+    margin-right: 60px;
+}
+.industry_colora{
+    margin-right: 40px;
+}
+.industry_colorb{
+    margin-right: 58px;
+}
+.Large-content-block .Large-content-block_right{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+}
+.Large-content-block .Large-content-block_right .Large-content-block_right_img{
+    margin-left: 10px;
+}
+.Large-content-block .Large-content-block_right .Large-content-block_right_text{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 60%;
+
+}
+.Large-content-block_right_text_p{
+    margin-top: 18px;
+    color: rgba(152, 152, 152, 1);
+}
+/* 底部 */
+.bottom {
+    background-color: rgb(34, 38, 61);
+    color: rgb(169, 169, 172);
+    margin-top: 212px;
+}
+.bottom .buttom_itema{
+    margin-left: 64px;
+    margin-top: 50px;
+}
+.bottom .buttom_itema .buttom_itema_title{
+    color: azure;
+    margin-left: 25px;
+}
+.bottom .buttom_itema .buttom_itema_titleb{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(169, 169, 172);
+
+}
+.bottom .buttom_itema .buttom_itema_titlec{
+    margin-left: 20px;
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itemb{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.bottom .buttom_itemc{
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+}
+.bottom .buttom_logo{
+    margin-top: 50px;
+}
+/*设置盒子的样式*/
+.menuDiv {
+    /* border: 2px solid #808080; */
+    overflow: hidden;
+    /* width: 100px; */
+    line-height: 40px;
+    color: black;
+    /* background-color: #EEF5F9; */
+    text-align: center;
+    display: block;
+}
+/*隐藏二级菜单*/
+.menuUL {
+    position: absolute;
+    display: none;
+}
+/*鼠标移到盒子，显示二级菜单*/
+.menuDiv:hover ul {
+    display: block;
+}
+/*盒子伪类样式*/
+.menuDiv:hover {
+    color: #ff0000;
+    background-color: #6f7fe2;
+}
+
+/*二级菜单样式*/
+.menuLI {
+    /* width: 100px; */
+    line-height: 36px;
+    color: #456;
+    /* background-color: #eff; */
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+    display: block;
+}
+    /*二级菜单伪类*/
+    .menuLI:hover {
+        color: #ff0000;
+        background-color: #6f7fe2;
+    }

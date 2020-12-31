@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+span{
+    color: rgb(220, 220, 220);
+}
+.demoa{
+    width: 100%;
+    background: url(../image/top_banner3.png) no-repeat;
+    height: 400px;
+}
+.demoa .row{
+    margin-top: 15px;
+}
+.demoa .row h1{
+    color: aliceblue;
+}
+.row .nva_logo{
+    width: 200px ; 
+  
+}
+.row .nav_list{
+    margin-top: 10px;
+}
+.nav_list_borad{
+    padding-bottom: 12px;
+    border-bottom: 4px solid white; 
+}
+.row .nav_list a{
+    font-size: 20px;
+    margin-left: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.row .login{
+    /* background-color: forestgreen; */
+    margin-left: 40px;
+    border: 1px solid white;
+    margin-top: 13px;
+}   
+.row .login a{
+    color: white;
+
+}
+.row .nav_title{
+    text-align: center;
+    margin-top: 100px;
+/* background-color: black; */
+}
+.row .nav_title_item{
+margin-top: 30px;
+margin-left: 80px;
+}
+.row .nav_title_item h5{
+    color: white;
+    line-height: 40px;
+}
+.row .nav_title_login{
+    width: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: rgb(220, 232, 245);
+    box-shadow: 0px 0px 3px white;
+}
+/* 当前位置 */
+.current_location{
+    background-color: white;
+}
+.current_location p{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+/* 成功案例、中部内容块 */
+.demob{
+    text-align: center;
+}
+.demob .row .Central_item_title{
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 123px;
+  
+}
+.demob .row .Central_item_title p::after{
+    content: " ";
+    display: block;
+    background: rgb(151, 30, 30);
+    width: 130px;
+    height: 3px;
+    margin: 20px 0;
+}
+.demob .row .Central_item_list{
+    margin-top: 91px;
+    margin-bottom: 50px;
+
+    
+}
+.demob .Central_item_list p{
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+ .Central_item_list_li a:hover .mask {
+    opacity: 1;           
+}
+.Central_item_list_li{
+    background-color:white;
+    box-shadow: 0px 0px 1px #7a7a7a;
+}
+.Central_item_list_li img{
+    width: 100%;
+}
+.Central_item_list li:nth-child(n+4){
+    margin-top: 20px;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 93%;
+    height: 92%;
+    margin-left: 15px;
+    background: rgba(101, 101, 101, 0.6);
+    color: #ffffff;
+    opacity: 0;
+}
+.mask button {
+    width: 226px;
+    height: 36px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: 
+    rgba(70, 142, 255, 1);
+    font-size: 14px;
+
+}
+/* 底部 */
+.bottom {
+    background-color: rgb(34, 38, 61);
+    color: rgb(169, 169, 172);
+    margin-top: 50px;
+}
+.bottom .buttom_itema{
+    margin-left: 64px;
+    margin-top: 50px;
+}
+.bottom .buttom_itema .buttom_itema_title{
+    color: azure;
+    margin-left: 25px;
+}
+.bottom .buttom_itema .buttom_itema_titleb{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(169, 169, 172);
+
+}
+.bottom .buttom_itema .buttom_itema_titlec{
+    margin-left: 20px;
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itemb{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.bottom .buttom_itemc{
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+}
+.bottom .buttom_logo{
+    margin-top: 50px;
+}
+ /* :hover .mask {
+    opacity: 1;           
+} */
+/* 自媒体查询 */
+@media(max-width:768px){
+    .nav_title_item{
+        margin-right: 30px;
+
+    }
+    .nav_list{
+        font-size: 40px;
+    }
+}

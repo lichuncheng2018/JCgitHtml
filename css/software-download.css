@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+span{
+    color: rgb(220, 220, 220);
+}
+.demoa{
+    background: url(../image/6.software-download/top_banner6.png) no-repeat;
+    height: 390px;
+}
+.demoa .nav{
+    margin-top: 15px;
+}
+.demoa .nav h1{
+    color: aliceblue;
+}
+.nav .nva_logo{
+    width: 200px ; 
+    /* background-color: brown; */
+    /* vertical-align: middle; */
+  
+}
+.nav .nav_list{
+    
+    margin-top: 10px;
+}
+.nav_list_borad{
+    padding-bottom: 12px;
+    border-bottom: 4px solid white; 
+}
+.nav .nav_list a{
+    font-size: 20px;
+    margin-left: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    /* background-color: red; */
+    /* margin-left: 40px; */
+}
+.nav .login{
+    /* background-color: forestgreen; */
+    margin-left: 40px;
+    border: 1px solid white;
+    margin-top: 13px;
+}   
+.nav .login a{
+    color: white;
+
+}
+.nav .nav_title{
+    text-align: center;
+    margin-top: 150px;
+/* background-color: black; */
+}
+.nav .nav_title_item{
+margin-top: 30px;
+margin-left: 40px;
+}
+.nav .nav_title_item h5{
+    color: rgba(255, 255, 255, 1);
+    line-height: 40px;
+}
+.nav .nav_title_login{
+    width: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: rgb(220, 232, 245);
+    box-shadow: 0px 0px 3px white;
+}
+/* 当前位置 */
+.current_location{
+    background-color: white;
+}
+.current_location p{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+/* 超快排流量提升助手下载 */
+.demob{
+    text-align: center;
+    background: url(../image/6.software-download/5.png) no-repeat right bottom; 
+}
+.demob .demob_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 101px;
+    
+}
+.demob .demob_content .content_list .content_list_title h2{
+    color: rgba(0, 0, 0, 1);
+    font-size: 48px;
+}
+.demob .demob_content .content_list .content_list_title p{
+    margin-top: 18px;
+    color: rgba(162, 162, 163, 1);
+    font-size: 30px;
+}
+
+.demob .demob_content .demob_content_ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 89px;
+    
+}
+.demob .demob_content .demob_content_ul button{
+    margin-top: 20px;
+    padding: 14px 28px 13px 28px;
+    color: rgba(70, 142, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(70, 142, 255, 1);
+}
+.demob_content_ul .demob_content_li{
+    margin-left: 110px;
+}
+.demob_content_li_p{
+    margin-top: 14px;
+    color: rgb(172, 169, 169);
+    font-size: 14px;
+}
+.content_img{
+    width: 1033px;    /*1033*/
+    height: 600px;
+    margin-top: 32px;
+    margin-left: 91px;
+}
+/* 底部 */
+.bottom {
+    background-color: rgb(34, 38, 61);
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itema{
+    margin-left: 64px;
+    margin-top: 50px;
+}
+.bottom .buttom_itema .buttom_itema_title{
+    color: azure;
+    margin-left: 25px;
+}
+.bottom .buttom_itema .buttom_itema_titleb{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(169, 169, 172);
+
+}
+.bottom .buttom_itema .buttom_itema_titlec{
+    margin-left: 20px;
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itemb{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.bottom .buttom_itemc{
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+}
+.bottom .buttom_logo{
+    margin-top: 50px;
+}
+

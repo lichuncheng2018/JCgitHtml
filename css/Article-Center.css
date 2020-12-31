@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.demoa{
+    background: url(../image/4.industry/top_banner4_1.png) no-repeat;
+    height: 390px;
+}
+.demoa .nav{
+    margin-top: 15px;
+}
+.demoa .nav h1{
+    color: aliceblue;
+}
+.nav .nva_logo{
+    width: 200px ; 
+    /* background-color: brown; */
+    /* vertical-align: middle; */
+  
+}
+.nav .nav_list{
+    
+    margin-top: 10px;
+}
+.nav .nav_list a{
+    font-size: 20px;
+    margin-left: 30px;
+    color: aliceblue;
+    /* background-color: red; */
+    /* margin-left: 40px; */
+}
+.nav .login{
+    /* background-color: forestgreen; */
+    margin-left: 40px;
+    border: 1px solid white;
+    margin-top: 13px;
+}   
+.nav .login a{
+    color: white;
+
+}
+.nav .nav_title{
+    text-align: center;
+    margin-top: 150px;
+/* background-color: black; */
+}
+.nav .nav_title_item{
+margin-top: 30px;
+margin-left: 40px;
+}
+.nav .nav_title_item h5{
+    color: rgb(219, 215, 215);
+    line-height: 40px;
+}
+.nav .nav_title_login{
+    width: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: rgb(220, 232, 245);
+    box-shadow: 0px 0px 3px white;
+}
+/* 当前位置 */
+.current_location{
+    background-color: white;
+}
+.current_location p{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+/* 主体内容块 */
+.demob{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.demob .main-content{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+/* width: 1200px; */
+}
+.main-content_text_biaoti{
+    font-size: 20px;
+    color: rgba(68, 68, 68, 1);
+}
+.main-content_text_wenzhang{
+    color: rgba(68, 68, 68, 1);
+    font-size: 18px;
+    margin-top: -70px;
+}
+.demob .main-content_text_p{
+   color: rgba(152, 152, 152, 1);
+}
+.demob .main-content_text_p span{
+    margin-left: 20px;
+}
+.main-content_ul{
+    margin-top: 30px;
+}
+.main-content_ul_lione{
+    float: left;
+    /* margin-left: 30px; */
+}
+.main-content_ul_lito{
+    float: right;
+    margin-left: 30px;
+}
+.main-content_ul .main-content_ul_li_text{
+    color: rgba(152, 152, 152, 1);
+    padding-top: 22px;
+    /* line-height: 24px; */
+    font-size: 14px;
+    margin-left: 25px;
+}
+.main-content_ul_li_img{
+    background: url(../image/4.industry/xq-1.png);
+    text-align: center;
+    margin-top: 34px;
+    margin-left: 50px;
+    /* width: 599px; */
+    height: 337px;
+    background-size: 599px 337px ;
+}
+.main-content_ul_onep{
+    margin-top: 54px;
+    margin-left: 24px;
+    color: rgba(68, 68, 68, 1);
+    line-height: 30px;
+    font-size: 14px;
+}
+.main-content_ul_top{
+    margin-top: 48px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 25px;
+}
+/* 主体内容右边块 */
+.main-content_right_img{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between;  */
+    /* width: 600px; */
+    /* margin-left: 270px; */
+}
+.main-content_right_img_ul{
+   /* display: flex;
+   flex-direction: column; */
+}
+.main-content_right_img_ul_lione{
+    margin-left: 200px;
+    color: rgba(68, 68, 68, 1);
+}
+.main-content_right_img_ul_li_to{
+    margin-top: 15px;
+}
+.main-content_text_wenzhang {
+    padding-bottom: 15px;
+}
+.main-content_right_img_ul_li{
+    margin-top: 15px;
+    
+}
+.main-content_right_img_ul_li img{
+  width: 135px;
+  height: 80px;
+}
+/* 图片右边文字 */
+.main-content_right_txet_li{
+    margin-left: 10px;
+   margin-top: -15px;
+}
+.main-content_right_txet_li_to{
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.main-content_right_txet_li_p{
+    margin-top: 20px;
+    color: rgba(152, 152, 152, 1);
+}
+.main-content_right_txet_li_p_to{
+    margin-top: 40px;
+    color: rgba(152, 152, 152, 1);
+}
+.main-content_right_txet_li_san{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+/* 第二段内容 */
+.main-content_right_img_ul_to{
+    margin-top: 200px;
+}
+.main-content_right_txet_li_Sort{
+    margin-left: 10px;
+    margin-top: 183px;
+}
+/* 底部 */
+.bottom {
+    background-color: rgb(34, 38, 61);
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itema{
+    margin-left: 64px;
+    margin-top: 50px;
+}
+.bottom .buttom_itema .buttom_itema_title{
+    color: azure;
+    margin-left: 25px;
+}
+.bottom .buttom_itema .buttom_itema_titleb{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(169, 169, 172);
+
+}
+.bottom .buttom_itema .buttom_itema_titlec{
+    margin-left: 20px;
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itemb{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.bottom .buttom_itemc{
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+}
+.bottom .buttom_logo{
+    margin-top: 50px;
+}

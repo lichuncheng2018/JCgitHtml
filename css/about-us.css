@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.demoa{
+    background: url(../image/7.about-us/top_banner7.png) no-repeat;
+    height: 390px;
+}
+.demoa .nav{
+    margin-top: 15px;
+}
+.demoa .nav h1{
+    color: aliceblue;
+}
+.nav .nva_logo{
+    width: 200px ; 
+    /* background-color: brown; */
+    /* vertical-align: middle; */
+  
+}
+.nav .nav_list{
+    
+    margin-top: 10px;
+}
+.nav_list_borad{
+    padding-bottom: 12px;
+    border-bottom: 4px solid white; 
+}
+.nav .nav_list a{
+    font-size: 20px;
+    margin-left: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    /* background-color: red; */
+    /* margin-left: 40px; */
+}
+.nav .login{
+    /* background-color: forestgreen; */
+    margin-left: 40px;
+    border: 1px solid white;
+    margin-top: 13px;
+}   
+.nav .login a{
+    color: white;
+
+}
+.nav .nav_title{
+    text-align: center;
+    margin-top: 150px;
+/* background-color: black; */
+}
+.nav .nav_title_item{
+margin-top: 30px;
+margin-left: 40px;
+}
+.nav .nav_title_login{
+    width: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: rgb(220, 232, 245);
+    box-shadow: 0px 0px 3px white;
+}
+/* 当前位置 */
+.current_location{
+    background-color: white;
+}
+.current_location p{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+/* 关于我们、下方内容 */
+.democ{
+    /* text-align: center; */
+}
+.democ .toll{
+    margin-top: 55px;
+    text-align: center;
+}
+.background_img{
+    margin-top: 60px;
+}
+.Text-description{
+    margin-top: 56px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+.Text-description .Official-website{
+    font-size: 22px;
+    color: rgba(71, 71, 71, 1);
+    margin-top: 15px;
+}
+/* 文字描述 */
+.Text-description .word-description{
+    font-size: 16px;
+    color: rgba(71, 71, 71, 1);
+    line-height: 38px;
+    /* border-bottom: 1px solid rgba(71, 71, 71, 1); */
+}
+/* 中间标题 */
+.Middle-title{
+    margin-top: 112px;
+    text-align: center;
+    
+}
+.Middle-title h3{
+    color:rgba(71, 71, 71, 1) ;
+    font-size: 32px;
+}
+.Middle-title p{
+    color: rgba(162, 162, 163, 1);
+    font-size: 16px;
+}
+/* 发展历程 */
+.Development-path{
+    background: url(../image/7.about-us/发展历程.png) no-repeat center top;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1840px;
+    /* background-color: cyan; */
+}
+.Development-path_ul img{
+margin-left: 40px;
+}
+.Development-path_li_one{
+    width: 550px;
+    margin-top:  15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Development-path_li_to{
+    margin-top: 386px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Development-path_li_three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 400px;
+}
+.Development-path_text span{
+    font-size: 38px;
+    margin-left: 210px;
+}
+.Development-path_text p{
+    color: rgba(71, 71, 71, 1);
+    margin-top: 7px;
+    font-size: 16px;
+}
+.Development-path_text_one{
+    padding-left: 30px;
+    margin-bottom: -20px;
+} 
+/* 右边历程 */
+.Development-path_ul_to{
+    margin-right: 60px;
+    margin-top: 250px;
+    
+}
+.Development-path_ul_to_lione{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Development-path_ul_to_lito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 440px;
+}
+.Development-path_ul_to_lithree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 390px;
+}
+.Development-path_ul_to span{
+    font-size: 38px;
+    color: rgba(71, 71, 71, 1);
+}
+.Development-path_ul_to img{
+    margin-left: 73px;
+}
+/* 底部 */
+.bottom {
+    background-color: rgb(34, 38, 61);
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itema{
+    margin-left: 64px;
+    margin-top: 50px;
+}
+.bottom .buttom_itema .buttom_itema_title{
+    color: azure;
+    margin-left: 25px;
+}
+.bottom .buttom_itema .buttom_itema_titleb{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(169, 169, 172);
+
+}
+.bottom .buttom_itema .buttom_itema_titlec{
+    margin-left: 20px;
+    color: rgb(169, 169, 172);
+}
+.bottom .buttom_itemb{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.bottom .buttom_itemc{
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+}
+.bottom .buttom_logo{
+    margin-top: 50px;
+}
